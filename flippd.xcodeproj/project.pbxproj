@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72FBCBBF2C3751F00006688C /* flippdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBCBBE2C3751F00006688C /* flippdApp.swift */; };
+		72FBCBC12C3751F00006688C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBCBC02C3751F00006688C /* ContentView.swift */; };
+		72FBCBC32C3751F10006688C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FBCBC22C3751F10006688C /* Assets.xcassets */; };
+		72FBCBC62C3751F10006688C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FBCBC52C3751F10006688C /* Preview Assets.xcassets */; };
+		72FBCBD02C3751F10006688C /* flippdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBCBCF2C3751F10006688C /* flippdTests.swift */; };
+		72FBCBDA2C3751F10006688C /* flippdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBCBD92C3751F10006688C /* flippdUITests.swift */; };
+		72FBCBDC2C3751F10006688C /* flippdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBCBDB2C3751F10006688C /* flippdUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72FBCBCC2C3751F10006688C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FBCBB32C3751F00006688C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FBCBBA2C3751F00006688C;
+			remoteInfo = flippd;
+		};
+		72FBCBD62C3751F10006688C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FBCBB32C3751F00006688C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FBCBBA2C3751F00006688C;
+			remoteInfo = flippd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72FBCBBB2C3751F00006688C /* flippd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flippd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FBCBBE2C3751F00006688C /* flippdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flippdApp.swift; sourceTree = "<group>"; };
+		72FBCBC02C3751F00006688C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72FBCBC22C3751F10006688C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FBCBC52C3751F10006688C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72FBCBCB2C3751F10006688C /* flippdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flippdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FBCBCF2C3751F10006688C /* flippdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flippdTests.swift; sourceTree = "<group>"; };
+		72FBCBD52C3751F10006688C /* flippdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flippdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FBCBD92C3751F10006688C /* flippdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flippdUITests.swift; sourceTree = "<group>"; };
+		72FBCBDB2C3751F10006688C /* flippdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flippdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72FBCBB82C3751F00006688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBC82C3751F10006688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBD22C3751F10006688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72FBCBB22C3751F00006688C = {
+			isa = PBXGroup;
+			children = (
+				72FBCBBD2C3751F00006688C /* flippd */,
+				72FBCBCE2C3751F10006688C /* flippdTests */,
+				72FBCBD82C3751F10006688C /* flippdUITests */,
+				72FBCBBC2C3751F00006688C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72FBCBBC2C3751F00006688C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72FBCBBB2C3751F00006688C /* flippd.app */,
+				72FBCBCB2C3751F10006688C /* flippdTests.xctest */,
+				72FBCBD52C3751F10006688C /* flippdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72FBCBBD2C3751F00006688C /* flippd */ = {
+			isa = PBXGroup;
+			children = (
+				72FBCBBE2C3751F00006688C /* flippdApp.swift */,
+				72FBCBC02C3751F00006688C /* ContentView.swift */,
+				72FBCBC22C3751F10006688C /* Assets.xcassets */,
+				72FBCBC42C3751F10006688C /* Preview Content */,
+			);
+			path = flippd;
+			sourceTree = "<group>";
+		};
+		72FBCBC42C3751F10006688C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72FBCBC52C3751F10006688C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72FBCBCE2C3751F10006688C /* flippdTests */ = {
+			isa = PBXGroup;
+			children = (
+				72FBCBCF2C3751F10006688C /* flippdTests.swift */,
+			);
+			path = flippdTests;
+			sourceTree = "<group>";
+		};
+		72FBCBD82C3751F10006688C /* flippdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72FBCBD92C3751F10006688C /* flippdUITests.swift */,
+				72FBCBDB2C3751F10006688C /* flippdUITestsLaunchTests.swift */,
+			);
+			path = flippdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72FBCBBA2C3751F00006688C /* flippd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FBCBDF2C3751F10006688C /* Build configuration list for PBXNativeTarget "flippd" */;
+			buildPhases = (
+				72FBCBB72C3751F00006688C /* Sources */,
+				72FBCBB82C3751F00006688C /* Frameworks */,
+				72FBCBB92C3751F00006688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flippd;
+			productName = flippd;
+			productReference = 72FBCBBB2C3751F00006688C /* flippd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72FBCBCA2C3751F10006688C /* flippdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FBCBE22C3751F10006688C /* Build configuration list for PBXNativeTarget "flippdTests" */;
+			buildPhases = (
+				72FBCBC72C3751F10006688C /* Sources */,
+				72FBCBC82C3751F10006688C /* Frameworks */,
+				72FBCBC92C3751F10006688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FBCBCD2C3751F10006688C /* PBXTargetDependency */,
+			);
+			name = flippdTests;
+			productName = flippdTests;
+			productReference = 72FBCBCB2C3751F10006688C /* flippdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72FBCBD42C3751F10006688C /* flippdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FBCBE52C3751F10006688C /* Build configuration list for PBXNativeTarget "flippdUITests" */;
+			buildPhases = (
+				72FBCBD12C3751F10006688C /* Sources */,
+				72FBCBD22C3751F10006688C /* Frameworks */,
+				72FBCBD32C3751F10006688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FBCBD72C3751F10006688C /* PBXTargetDependency */,
+			);
+			name = flippdUITests;
+			productName = flippdUITests;
+			productReference = 72FBCBD52C3751F10006688C /* flippdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72FBCBB32C3751F00006688C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					72FBCBBA2C3751F00006688C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					72FBCBCA2C3751F10006688C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 72FBCBBA2C3751F00006688C;
+					};
+					72FBCBD42C3751F10006688C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 72FBCBBA2C3751F00006688C;
+					};
+				};
+			};
+			buildConfigurationList = 72FBCBB62C3751F00006688C /* Build configuration list for PBXProject "flippd" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72FBCBB22C3751F00006688C;
+			productRefGroup = 72FBCBBC2C3751F00006688C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72FBCBBA2C3751F00006688C /* flippd */,
+				72FBCBCA2C3751F10006688C /* flippdTests */,
+				72FBCBD42C3751F10006688C /* flippdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FBCBB92C3751F00006688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBCBC62C3751F10006688C /* Preview Assets.xcassets in Resources */,
+				72FBCBC32C3751F10006688C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBC92C3751F10006688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBD32C3751F10006688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72FBCBB72C3751F00006688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBCBC12C3751F00006688C /* ContentView.swift in Sources */,
+				72FBCBBF2C3751F00006688C /* flippdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBC72C3751F10006688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBCBD02C3751F10006688C /* flippdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FBCBD12C3751F10006688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBCBDA2C3751F10006688C /* flippdUITests.swift in Sources */,
+				72FBCBDC2C3751F10006688C /* flippdUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72FBCBCD2C3751F10006688C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FBCBBA2C3751F00006688C /* flippd */;
+			targetProxy = 72FBCBCC2C3751F10006688C /* PBXContainerItemProxy */;
+		};
+		72FBCBD72C3751F10006688C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FBCBBA2C3751F00006688C /* flippd */;
+			targetProxy = 72FBCBD62C3751F10006688C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72FBCBDD2C3751F10006688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72FBCBDE2C3751F10006688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72FBCBE02C3751F10006688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"flippd/Preview Content\"";
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72FBCBE12C3751F10006688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"flippd/Preview Content\"";
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72FBCBE32C3751F10006688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flippd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flippd";
+			};
+			name = Debug;
+		};
+		72FBCBE42C3751F10006688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flippd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flippd";
+			};
+			name = Release;
+		};
+		72FBCBE62C3751F10006688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flippd;
+			};
+			name = Debug;
+		};
+		72FBCBE72C3751F10006688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63SM7D7UXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vry.flippdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flippd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72FBCBB62C3751F00006688C /* Build configuration list for PBXProject "flippd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FBCBDD2C3751F10006688C /* Debug */,
+				72FBCBDE2C3751F10006688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FBCBDF2C3751F10006688C /* Build configuration list for PBXNativeTarget "flippd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FBCBE02C3751F10006688C /* Debug */,
+				72FBCBE12C3751F10006688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FBCBE22C3751F10006688C /* Build configuration list for PBXNativeTarget "flippdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FBCBE32C3751F10006688C /* Debug */,
+				72FBCBE42C3751F10006688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FBCBE52C3751F10006688C /* Build configuration list for PBXNativeTarget "flippdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FBCBE62C3751F10006688C /* Debug */,
+				72FBCBE72C3751F10006688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72FBCBB32C3751F00006688C /* Project object */;
+}
